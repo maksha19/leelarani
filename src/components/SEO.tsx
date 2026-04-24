@@ -9,8 +9,8 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = "Leela Rani Eagappan | District-80 Nominated Candidate 2026-27",
-  description = "Official portfolio of Leela Rani Eagappan, District-80 Nominated Candidate 2026-27. Discover vision, leadership experience, and achievements.",
+  title = "Leela Rani Eagappan | District-80 Nominated Division T Director 2026-27",
+  description = "Official portfolio of Leela Rani Eagappan, District-80 Nominated Division T Director 2026-27. Discover vision, leadership experience, and achievements.",
   keywords = "Leela Rani Eagappan, Toastmasters, Division T Director, Leadership, District 80, Portfolio",
   image = "https://maksha19.github.io/leelarani/leelarani.jpeg", // absolute or og image
   url = "https://maksha19.github.io/leelarani/",

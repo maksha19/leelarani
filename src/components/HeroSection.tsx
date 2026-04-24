@@ -40,7 +40,7 @@ export default function HeroSection() {
               className="inline-flex items-center justify-center bg-brand-yellow text-brand-blue font-button text-lg font-semibold px-10 py-4 rounded-xl shadow-[0_15px_30px_-5px_rgba(0,0,0,0.3)] hover:shadow-[0_20px_40px_-5px_rgba(0,0,0,0.4)] hover:-translate-y-1 transition-all duration-300 group"
               href="#contact"
             >
-              Vote for Me
+              2nd May, Vote for Me
               <span className="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
             </a>
           </div>
