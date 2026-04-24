@@ -5,21 +5,21 @@ const visions = [
   {
     icon: 'lightbulb',
     title: 'Invigorating & Independent Leaders',
-    description: 'Empowering members to take charge, innovate in their roles, and lead with autonomy and confidence.',
+    description: 'Make the Leaders who think independently with confidence, energizing others and creating a vibrant path to success.',
     iconBg: 'bg-brand-blue/10',
     iconColor: 'text-brand-blue'
   },
   {
     icon: 'diversity_3',
     title: 'Indigenous & Inclusive Clubs',
-    description: 'Fostering environments that celebrate our unique heritage while welcoming diverse voices from all walks of life.',
+    description: 'Clubs that stands strong on its own, celebrating every voice, honoring every member, Focusing on Moments of Truth to ensure club excellence and sustainable growth',
     iconBg: 'bg-brand-maroon/10',
     iconColor: 'text-brand-maroon'
   },
   {
     icon: 'rocket_launch',
     title: 'Inspiring & Innovative Members',
-    description: 'Providing the tools and platforms for members to experiment, grow, and inspire others through their journey.',
+    description: 'Encourage the Members who lead with integrity and think beyond boundaries to inspire growth and innovation.',
     iconBg: 'bg-tertiary-container/30',
     iconColor: 'text-tertiary'
   }

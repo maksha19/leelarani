@@ -8,7 +8,7 @@ export default function Footer() {
       <section className="py-32 relative overflow-hidden bg-brand-blue flex items-center justify-center">
         {/* Subtle pattern overlay */}
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#F2DF74 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -35,10 +35,10 @@ export default function Footer() {
           <div className="flex gap-6 flex-wrap justify-center">
             <a className="font-h3 text-xs font-semibold uppercase tracking-widest text-slate-300 hover:text-[#F2DF74] underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity" href="#">Privacy Policy</a>
             <a className="font-h3 text-xs font-semibold uppercase tracking-widest text-slate-300 hover:text-[#F2DF74] underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity" href="#">Toastmasters International</a>
-            <a className="font-h3 text-xs font-semibold uppercase tracking-widest text-[#F2DF74] hover:text-[#F2DF74] underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity" href="#">Contact</a>
+            <a className="font-h3 text-xs font-semibold uppercase tracking-widest text-[#F2DF74] hover:text-[#F2DF74] underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity" target="_blank" rel="noopener noreferrer" href="https://wa.me/6591348785?text=Hi%20Leela%20Rani,%20wishing%20you%20all%20the%20best%20for%20your%20campaign!">Contact</a>
           </div>
           <div className="font-h3 text-xs font-semibold uppercase tracking-widest text-slate-300 text-center md:text-right">
-            © 2024 Candidate Leadership Portfolio. All rights reserved.
+            © District-80, Division-T Nominated Candidate 2026-27. All rights reserved.
           </div>
         </div>
       </footer>

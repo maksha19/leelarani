@@ -9,11 +9,11 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = "Leela Rani Eagappan | Division T Director Candidate | Toastmasters District 80",
-  description = "Official portfolio of Leela Rani Eagappan, Division T Director candidate for Toastmasters District 80. Discover vision, leadership experience, and achievements.",
+  title = "Leela Rani Eagappan | District-80 Nominated Candidate 2026-27",
+  description = "Official portfolio of Leela Rani Eagappan, District-80 Nominated Candidate 2026-27. Discover vision, leadership experience, and achievements.",
   keywords = "Leela Rani Eagappan, Toastmasters, Division T Director, Leadership, District 80, Portfolio",
-  image = "https://maksha.github.io/leelarani/screen.png", // absolute or og image
-  url = "https://maksha.github.io/leelarani/",
+  image = "https://maksha19.github.io/leelarani/screen.png", // absolute or og image
+  url = "https://maksha19.github.io/leelarani/",
 }: SEOProps) {
   return (
     <Helmet>
