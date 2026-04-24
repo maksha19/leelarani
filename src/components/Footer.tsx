@@ -1,47 +1,84 @@
-
 import { motion } from 'framer-motion';
 
 export default function Footer() {
   return (
-    <>
-      {/* Mission Quote Section */}
-      <section className="py-32 relative overflow-hidden bg-brand-blue flex items-center justify-center">
-        {/* Subtle pattern overlay */}
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(#F2DF74 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="relative z-10 max-w-4xl mx-auto px-6 text-center"
-        >
-          <span className="material-symbols-outlined text-6xl text-brand-yellow/50 mb-6 block">format_quote</span>
-          <h2 className="font-h2 text-3xl md:text-5xl text-white leading-tight mb-8 font-bold">
-            "Together, we build leaders who are independent in thought, inclusive in action, and innovative in spirit."
-          </h2>
-          <p className="font-label-caps text-brand-yellow tracking-widest font-semibold uppercase">Leela Rani Eagappan</p>
-        </motion.div>
-      </section>
+    <footer className="bg-[#1f3d58] w-full pt-20 pb-8 mt-auto" id="contact">
+      <div className="max-w-[1200px] mx-auto px-6">
 
-      {/* Footer */}
-      <footer className="bg-[#004165] dark:bg-slate-950 w-full py-12 mt-auto border-t border-white/10" id="contact">
-        <div className="flex flex-col md:flex-row justify-between items-center px-12 gap-6 max-w-[1200px] mx-auto">
-          <div className="text-lg font-bold text-white flex flex-col items-center md:items-start gap-2">
-            <span>Leela Rani Eagappan</span>
-            <a className="text-[#F2DF74] font-body-md text-sm hover:underline flex items-center gap-2" href="mailto:Sanlee02@gmail.com">
-              <span className="material-symbols-outlined text-sm">mail</span> Sanlee02@gmail.com
+        {/* Top Section */}
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-24 mb-16 items-center">
+
+          {/* Left Column */}
+          <div className="text-white space-y-8">
+            <h2 className="font-h1 text-4xl md:text-5xl font-bold leading-tight">
+              "Empowering independent leaders and inclusive clubs to ignite innovative growth"
+            </h2>
+            <p className="font-body-md text-white/80 max-w-md text-lg leading-relaxed">
+              If you have any ideas or feedback, please feel free to reach out. I look forward to seeing you at DCM 2 on 2 May 2026.
+            </p>
+
+            <div className="space-y-6 pt-4">
+              {/* Phone */}
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+                  <span className="material-symbols-outlined text-white">call</span>
+                </div>
+                <div>
+                  <p className="font-label-caps text-xs text-white/60 tracking-widest mb-1 uppercase">Phone</p>
+                  <a href="https://wa.me/6591348785?text=Hi%20Leela%20Rani,%20wishing%20you%20all%20the%20best%20for%20your%20campaign!" target="_blank" rel="noopener noreferrer" className="font-bold text-lg hover:text-brand-yellow transition-colors">
+                    +65 9134 8785
+                  </a>
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-[#af7c54] flex items-center justify-center shrink-0">
+                  <span className="material-symbols-outlined text-white">mail</span>
+                </div>
+                <div>
+                  <p className="font-label-caps text-xs text-white/60 tracking-widest mb-1 uppercase">Email</p>
+                  <a href="mailto:Sanlee02@gmail.com" className="font-bold text-lg hover:text-brand-yellow transition-colors text-wrap break-all">
+                    Sanlee02@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Right Column (Card) */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="bg-[#294b68] rounded-3xl p-10 md:p-14 text-center shadow-[0_10px_40px_rgba(0,0,0,0.15)]"
+          >
+            <h3 className="font-h2 text-2xl md:text-3xl text-white font-bold mb-4">
+              Vote for Leela Rani
+            </h3>
+            <p className="font-body-md text-white/80 mb-8 max-w-sm mx-auto text-center leading-relaxed text-lg">
+              "Together, we build leaders who are independent in thought, inclusive in action, and innovative in spirit."
+            </p>
+            <a
+              href="https://www.d80toastmasters.org/dlc-nominations/leela-rani"
+              target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-full bg-[#ac8159] text-white font-button text-lg font-bold px-8 py-4 rounded-xl hover:bg-[#966844] hover:-translate-y-1 transition-all duration-300 shadow-lg"
+            >
+              View All Nominees
+              <span className="material-symbols-outlined ml-2 text-xl">open_in_new</span>
             </a>
-          </div>
-          <div className="flex gap-6 flex-wrap justify-center">
-            <a className="font-h3 text-xs font-semibold uppercase tracking-widest text-slate-300 hover:text-[#F2DF74] underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity" href="#">Privacy Policy</a>
-            <a className="font-h3 text-xs font-semibold uppercase tracking-widest text-slate-300 hover:text-[#F2DF74] underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity" href="#">Toastmasters International</a>
-            <a className="font-h3 text-xs font-semibold uppercase tracking-widest text-[#F2DF74] hover:text-[#F2DF74] underline-offset-4 hover:underline opacity-80 hover:opacity-100 transition-opacity" target="_blank" rel="noopener noreferrer" href="https://wa.me/6591348785?text=Hi%20Leela%20Rani,%20wishing%20you%20all%20the%20best%20for%20your%20campaign!">Contact</a>
-          </div>
-          <div className="font-h3 text-xs font-semibold uppercase tracking-widest text-slate-300 text-center md:text-right">
-            © District-80, Division-T Nominated Candidate 2026-27. All rights reserved.
-          </div>
+          </motion.div>
         </div>
-      </footer>
-    </>
+
+        {/* Bottom Line */}
+        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-white/60 font-body-md text-sm pb-4">
+          <p>© 2026 Leela Rani Eagappan. All rights reserved.</p>
+          <p className="text-center md:text-right">
+            District-80, Division-T Nominated Candidate 2026-27
+          </p>
+        </div>
+
+      </div>
+    </footer>
   );
 }
