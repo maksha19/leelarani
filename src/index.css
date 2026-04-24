@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #004165;
+  --color-brand-maroon: #772432;
+  --color-brand-yellow: #f2df74;
+  --color-surface: #f2fbfa;
+  --color-surface-container: #e7f0ee;
+  --color-surface-container-low: #ecf5f4;
+  --color-surface-container-high: #e1eae9;
+  --color-on-surface: #151d1d;
+  --color-on-surface-variant: #41474e;
+  --color-on-background: #151d1d;
+  --color-tertiary-container: #bdac47;
+  --color-tertiary: #6b5f00;
+  --color-outline-variant: #c1c7cf;
+  --color-background: #f2fbfa;
+
+  --font-h1: "Epilogue", sans-serif;
+  --font-h2: "Epilogue", sans-serif;
+  --font-h3: "Epilogue", sans-serif;
+  --font-button: "Work Sans", sans-serif;
+  --font-body-md: "Work Sans", sans-serif;
+  --font-body-lg: "Work Sans", sans-serif;
+  --font-label-caps: "Work Sans", sans-serif;
+}
+
+@layer utilities {
+  .hero-gradient {
+    background: linear-gradient(135deg, #004165 0%, #772432 100%);
+  }
+
+  .text-gradient {
+    background: linear-gradient(90deg, #004165, #772432);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 30px 30px -5px rgba(0, 65, 101, 0.08);
+  }
+}
