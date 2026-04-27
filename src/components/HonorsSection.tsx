@@ -31,7 +31,7 @@ export default function HonorsSection() {
               <span className="material-symbols-outlined">emoji_events</span>
             </div>
             <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">Triple Membership Awards</h3>
-            <p className="font-label-caps text-sm font-semibold tracking-wider text-brand-maroon mb-6 uppercase">Chozhan TTMC (2021-22)</p>
+            <p className="font-label-caps text-sm font-semibold tracking-wider text-brand-maroon mb-6 uppercase">Chozhan Tamil Toastmaster Club (2021-22)</p>
             <p className="font-body-md text-xl text-on-surface-variant mb-6">
               Achieved three prestigious membership awards in a single year: Smedley, Talk up Toastmaster, and Beat the Clock.
             </p>

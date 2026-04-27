@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[100dvh] md:min-h-[921px] flex items-center overflow-hidden pt-10 md:pt-20 pb-24 md:pb-0">
+    <section className="relative min-h-[100dvh] md:min-h-[921px] flex items-center overflow-hidden pt-10 pt-22 pb-24 md:pb-0">
       <div className="absolute inset-0 hero-gradient opacity-90 z-0"></div>
 
       {/* Abstract background shapes */}

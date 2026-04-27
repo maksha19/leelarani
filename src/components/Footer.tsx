@@ -25,7 +25,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <p className="font-label-caps text-xs text-white/60 tracking-widest mb-1 uppercase">Phone</p>
-                  <a href="https://wa.me/6591348785?text=Hi%20Leela%20Rani,%20wishing%20you%20all%20the%20best%20for%20your%20campaign!" target="_blank" rel="noopener noreferrer" className="font-bold text-lg hover:text-brand-yellow transition-colors">
+                  <a href="https://wa.me/6591348785?text=Hi%20Leela%20Rani,%20wishing%20you%20all%20the%20best%20!" target="_blank" rel="noopener noreferrer" className="font-bold text-lg hover:text-brand-yellow transition-colors">
                     +65 9134 8785
                   </a>
                 </div>

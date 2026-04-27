@@ -54,39 +54,41 @@ export default function ExperienceSection() {
             <p className="font-body-md text-xl text-brand-maroon font-medium">Batok Tamil Toastmaster Club</p>
           </motion.div>
 
-          {/* Role Card 4 */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.4, delay: 0.3 }}
-            className="glass-panel p-6 rounded-2xl border-l-4 border-l-brand-blue lg:col-span-2 hover:shadow-xl transition-shadow"
-          >
-            <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Club Level</p>
-            <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Club President</h4>
-            <div className="flex flex-wrap gap-2 mt-3">
-              <span className="px-3 py-1 bg-surface-container rounded-md font-body-md text-xl">Sin. Meynigar TTMC</span>
-              <span className="px-3 py-1 bg-surface-container rounded-md font-body-md text-xl">TPE TMC</span>
-              <span className="px-3 py-1 bg-surface-container rounded-md font-body-md text-xl">Chozhan TTMC</span>
-            </div>
-          </motion.div>
-
-          {/* Role Card 5 (Combined VP Roles) */}
+          {/* Role Card 4 (Combined VP Roles) */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.4 }}
-            className="glass-panel p-6 rounded-2xl border-l-4 border-l-brand-maroon hover:shadow-xl transition-shadow"
+            className="glass-panel p-6 rounded-2xl border-l-4 border-l-brand-maroon lg:col-span-2 hover:shadow-xl transition-shadow"
           >
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Executive Committee</p>
             <h4 className="font-h3 text-xl text-brand-blue mb-3 font-bold">Vice President Roles</h4>
             <ul className="space-y-2 font-body-md text-xl">
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Education (Cheran TTMC)</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Membership (Chozhan TTMC)</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP PR (Cheran TTMC)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Education (Cheran Tamil Toastmaster Club)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Membership (Chozhan Tamil Toastmaster Club)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP PR (Cheran Tamil Toastmaster Club)</li>
             </ul>
           </motion.div>
+
+          {/* Role Card 5 */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: 0.3 }}
+            className="glass-panel p-6 rounded-2xl border-l-4 border-l-brand-blue  hover:shadow-xl transition-shadow"
+          >
+            <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Club Level</p>
+            <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Club President</h4>
+            <ul className="space-y-2 font-body-md text-xl">
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Sin. Meynigar Tamil Toastmaster Club</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> TPE Tamil Toastmaster Club</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Chozhan Tamil Toastmaster Club</li>
+            </ul>
+          </motion.div>
+
+
         </div>
       </div>
     </section>
