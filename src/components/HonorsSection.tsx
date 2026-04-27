@@ -30,7 +30,7 @@ export default function HonorsSection() {
             <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-brand-yellow/30 text-brand-blue mb-6">
               <span className="material-symbols-outlined">emoji_events</span>
             </div>
-            <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">Triple Crown Membership Awards</h3>
+            <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">Triple Membership Awards</h3>
             <p className="font-label-caps text-sm font-semibold tracking-wider text-brand-maroon mb-6 uppercase">Chozhan TTMC (2021-22)</p>
             <p className="font-body-md text-xl text-on-surface-variant mb-6">
               Achieved three prestigious membership awards in a single year: Smedley, Talk up Toastmaster, and Beat the Clock.
@@ -54,9 +54,9 @@ export default function HonorsSection() {
               <span className="material-symbols-outlined">star</span>
             </div>
             <div>
-              <h4 className="font-bold text-lg text-on-background mb-1 font-h3">Club Sponsor / Chartered President</h4>
+              <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">Club Sponsor / Chartered President</h3>
               <p className="font-body-md text-xl text-on-surface-variant mb-6">
-                Batok TTMC (2025-26)
+                Batok Tamil Toastmaster Club (2025-26)
               </p>
             </div>
           </motion.div>
@@ -72,7 +72,7 @@ export default function HonorsSection() {
               <span className="material-symbols-outlined">public</span>
             </div>
             <div>
-              <h4 className="font-bold text-lg text-on-background mb-1 font-h3">President's Distinguished Area</h4>
+              <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">President's Distinguished Area</h3>
               <p className="font-body-md text-xl text-on-surface-variant">Area T1 (2023-24)</p>
             </div>
           </motion.div>
@@ -88,8 +88,9 @@ export default function HonorsSection() {
               <span className="material-symbols-outlined">groups</span>
             </div>
             <div>
-              <h4 className="font-bold text-lg text-on-background mb-1 font-h3">President's Distinguished Clubs</h4>
-              <p className="font-body-md text-xl text-on-surface-variant">Cheran and Chozhan TTMC (2019-20 and 2021-22)</p>
+              <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">President's Distinguished Clubs</h3>
+              <li className="ml-4 font-body-md text-xl text-on-surface-variant">Cheran Tamil Toastmaster Club (2019-20)</li>
+              <li className="ml-4 font-body-md text-xl text-on-surface-variant">Chozhan Tamil Toastmaster Club (2021-22)</li>
             </div>
           </motion.div>
         </div>

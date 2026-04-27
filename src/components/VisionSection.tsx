@@ -36,7 +36,7 @@ export default function VisionSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-h2 text-4xl text-brand-blue mb-4 font-bold">My Vision for District 80</h2>
+          <h2 className="font-h2 text-4xl text-brand-blue mb-4 font-bold">My Vision for Division T</h2>
           <p className="font-body-lg text-2xl text-on-surface-variant max-w-2xl mx-auto">
             Empowering independent leaders and inclusive clubs to ignite innovative growth
           </p>

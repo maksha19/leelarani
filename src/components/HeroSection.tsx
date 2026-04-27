@@ -61,13 +61,22 @@ export default function HeroSection() {
                 src={`${import.meta.env.BASE_URL}leelarani.jpeg`}
               />
             </div>
-            <div className="absolute -bottom-6 -left-3 md:-left-6 bg-white p-3 md:p-4 rounded-xl shadow-xl flex items-center gap-2 md:gap-3">
+            <div className=" mt-4 bg-white p-3 md:p-4 rounded-xl shadow-xl flex items-center gap-2 md:gap-3">
               <div className="bg-brand-maroon/10 p-2 rounded-lg text-brand-maroon">
                 <span className="material-symbols-outlined">workspace_premium</span>
               </div>
               <div>
-                <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider">Charter President</p>
-                <p className="font-bold text-on-background">Batok TTMC</p>
+                <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider">Sponsor and Charter President</p>
+                <p className="font-bold text-on-background">Batok Tamil Toastmaster Club</p>
+              </div>
+            </div>
+            <div className=" mt-4 bg-white p-3 md:p-4 rounded-xl shadow-xl flex items-center gap-2 md:gap-3">
+              <div className="bg-brand-maroon/10 p-2 rounded-lg text-brand-maroon">
+                <span className="material-symbols-outlined">workspace_premium</span>
+              </div>
+              <div>
+                <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider">Asst. Division Director PQD</p>
+                <p className="font-bold text-on-background">Division C 2025-26</p>
               </div>
             </div>
           </div>

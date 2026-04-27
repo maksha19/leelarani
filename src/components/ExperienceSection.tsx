@@ -51,7 +51,7 @@ export default function ExperienceSection() {
           >
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Club Level</p>
             <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Charter President</h4>
-            <p className="font-body-md text-xl text-brand-maroon font-medium">Batok TTMC</p>
+            <p className="font-body-md text-xl text-brand-maroon font-medium">Batok Tamil Toastmaster Club</p>
           </motion.div>
 
           {/* Role Card 4 */}
