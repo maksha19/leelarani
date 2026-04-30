@@ -1,6 +1,22 @@
 
 import { motion } from 'framer-motion';
 
+// Achievement Photos
+import ach1 from '../assets/achivements/photo_1.jpeg'
+import ach2 from '../assets/achivements/photo_2.jpeg';
+import ach3 from '../assets/achivements/photo_3.jpeg';
+import ach4 from '../assets/achivements/photo_4.jpeg';
+import ach5 from '../assets/achivements/photo_5.jpeg';
+import ach6 from '../assets/achivements/photo_6.jpeg';
+import ach7 from '../assets/achivements/photo_7.jpeg';
+import ach8 from '../assets/achivements/photo_8.jpeg';
+import ach9 from '../assets/achivements/photo_9.jpeg';
+import ach10 from '../assets/achivements/photo_10.jpeg';
+
+const achievementPhotos = [
+  ach1, ach2, ach3, ach4, ach5, ach6, ach7, ach8, ach9, ach10,
+];
+
 export default function ExperienceSection() {
   return (
     <section className="py-24 bg-surface" id="experience">
@@ -87,9 +103,25 @@ export default function ExperienceSection() {
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Chozhan Tamil Toastmaster Club</li>
             </ul>
           </motion.div>
-
-
         </div>
+      </div>
+      <div className="flex mt-5 overflow-hidden group">
+        <motion.div
+          className="flex gap-6 px-6"
+          animate={{ x: [0, -7752] }}
+          transition={{
+            duration: 60,
+            repeat: Infinity,
+            ease: "linear",
+            repeatType: "loop"
+          }}
+        >
+          {[...achievementPhotos, ...achievementPhotos].map((photo, index) => (
+            <div key={index} className="w-80 h-60 md:w-96 md:h-72 shrink-0 rounded-2xl shadow-lg border-4 border-white overflow-hidden">
+              <img src={photo} alt="" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+            </div>
+          ))}
+        </motion.div>
       </div>
     </section>
   );

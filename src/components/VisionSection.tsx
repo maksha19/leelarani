@@ -27,8 +27,11 @@ const visions = [
 
 export default function VisionSection() {
   return (
-    <section className="py-24 bg-surface relative z-10" id="vision">
+    <section className="py-12 md:py-24 bg-surface relative z-10" id="vision">
       <div className="max-w-[1200px] mx-auto px-6">
+        <div className='flex py-10'>
+          <p className="font-body-lg font-bold text-xl md:text-2xl text-on-surface-variant justify-center items-center mx-auto">உள்ளுவதெல்லாம் உயர்வுள்ளல்" (குறள் 596). Let your thoughts always be lofty/high </p>
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
