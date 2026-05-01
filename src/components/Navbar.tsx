@@ -4,7 +4,7 @@ const navItems = [
   { id: 'vision', label: 'Vision' },
   { id: 'honors', label: 'Honors' },
   { id: 'experience', label: 'Experience' },
-  { id: 'contact', label: 'Resources' },
+  { id: 'calendar', label: 'Resources' },
 ];
 
 export default function Navbar() {

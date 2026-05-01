@@ -16,9 +16,9 @@ function App() {
       <main className="flex-grow">
         <HeroSection />
         <VisionSection />
-        <CalendarSection />
         <HonorsSection />
         <ExperienceSection />
+        <CalendarSection />
       </main>
       <Footer />
     </>
