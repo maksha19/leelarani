@@ -76,7 +76,7 @@ export default function HeroSection() {
               </div>
               <div>
                 <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider">Asst. Division Director PQD</p>
-                <p className="font-bold text-on-background">Division C 2025-26</p>
+                <p className="font-bold text-on-background">Division C 2025-2026</p>
               </div>
             </div>
           </div>

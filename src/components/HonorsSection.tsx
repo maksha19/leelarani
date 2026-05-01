@@ -31,7 +31,7 @@ export default function HonorsSection() {
               <span className="material-symbols-outlined">emoji_events</span>
             </div>
             <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">Triple Membership Awards</h3>
-            <p className="font-label-caps text-sm font-semibold tracking-wider text-brand-maroon mb-6 uppercase">Chozhan Tamil Toastmaster Club (2021-22)</p>
+            <p className="font-label-caps text-sm font-semibold tracking-wider text-brand-maroon mb-6 uppercase">Chozhan Tamil Toastmaster Club (2021-2022)</p>
             <p className="font-body-md text-xl text-on-surface-variant mb-6">
               Achieved three prestigious membership awards in a single year: Smedley, Talk up Toastmaster, and Beat the Clock.
             </p>
@@ -56,7 +56,7 @@ export default function HonorsSection() {
             <div>
               <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">Club Sponsor / Chartered President</h3>
               <p className="font-body-md text-xl text-on-surface-variant mb-6">
-                Batok Tamil Toastmaster Club (2025-26)
+                Batok Tamil Toastmaster Club (2025-2026)
               </p>
             </div>
           </motion.div>
@@ -73,7 +73,7 @@ export default function HonorsSection() {
             </div>
             <div>
               <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">President's Distinguished Area</h3>
-              <p className="font-body-md text-xl text-on-surface-variant">Area T1 (2023-24)</p>
+              <p className="font-body-md text-xl text-on-surface-variant">Area T1 (2023-2024)</p>
             </div>
           </motion.div>
 
@@ -89,8 +89,8 @@ export default function HonorsSection() {
             </div>
             <div>
               <h3 className="font-h3 text-2xl text-brand-blue mb-2 font-semibold">President's Distinguished Clubs</h3>
-              <li className="ml-4 font-body-md text-xl text-on-surface-variant">Cheran Tamil Toastmaster Club (2019-20)</li>
-              <li className="ml-4 font-body-md text-xl text-on-surface-variant">Chozhan Tamil Toastmaster Club (2021-22)</li>
+              <li className="ml-4 font-body-md text-xl text-on-surface-variant">Cheran Tamil Toastmaster Club (2019-2020)</li>
+              <li className="ml-4 font-body-md text-xl text-on-surface-variant">Chozhan Tamil Toastmaster Club (2021-2022)</li>
             </div>
           </motion.div>
         </div>

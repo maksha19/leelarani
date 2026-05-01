@@ -14,7 +14,7 @@ import ach9 from '../assets/achivements/photo_9.jpeg';
 import ach10 from '../assets/achivements/photo_10.jpeg';
 
 const achievementPhotos = [
-  ach1, ach2, ach3, ach4, ach5, ach6, ach7, ach8, ach9, ach10,
+  ach1, ach2, ach3, ach4, ach5, ach6, ach8, ach7, ach9, ach10,
 ];
 
 export default function ExperienceSection() {
@@ -41,7 +41,7 @@ export default function ExperienceSection() {
           >
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Division Level</p>
             <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Asst. Division Director PQD</h4>
-            <p className="font-body-md text-xl text-brand-maroon font-medium">Division C</p>
+            <p className="font-body-md text-xl text-brand-maroon font-medium">Division C (2025-2026)</p>
           </motion.div>
 
           {/* Role Card 2 */}
@@ -54,7 +54,7 @@ export default function ExperienceSection() {
           >
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Area Level</p>
             <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Area Director</h4>
-            <p className="font-body-md text-xl text-brand-maroon font-medium">Area T1</p>
+            <p className="font-body-md text-xl text-brand-maroon font-medium">Area T1 (2023-2024)</p>
           </motion.div>
 
           {/* Role Card 3 */}
@@ -67,7 +67,7 @@ export default function ExperienceSection() {
           >
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Club Level</p>
             <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Charter President</h4>
-            <p className="font-body-md text-xl text-brand-maroon font-medium">Batok Tamil Toastmaster Club</p>
+            <p className="font-body-md text-xl text-brand-maroon font-medium">Batok Tamil Toastmaster Club (2025-2026)</p>
           </motion.div>
 
           {/* Role Card 4 (Combined VP Roles) */}
@@ -81,9 +81,10 @@ export default function ExperienceSection() {
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Executive Committee</p>
             <h4 className="font-h3 text-xl text-brand-blue mb-3 font-bold">Vice President Roles</h4>
             <ul className="space-y-2 font-body-md text-xl">
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Education (Cheran Tamil Toastmaster Club)</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Membership (Chozhan Tamil Toastmaster Club)</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP PR (Cheran Tamil Toastmaster Club)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Education, Cheran Tamil Toastmaster Club (2019-2020)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Education, Toa Payoh East Toastmasters Club (July - Dec 2022)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP Membership, Chozhan Tamil Toastmaster Club (March - June 2022)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> VP PR, Cheran Tamil Toastmaster Club (2022-2023)</li>
             </ul>
           </motion.div>
 
@@ -98,9 +99,9 @@ export default function ExperienceSection() {
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Club Level</p>
             <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Club President</h4>
             <ul className="space-y-2 font-body-md text-xl">
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Sin. Meynigar Tamil Toastmaster Club</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> TPE Tamil Toastmaster Club</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Chozhan Tamil Toastmaster Club</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Singapore Meynigar Tamil Toastmaster Club (2025-2026)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Toa Payoh East Toastmasters Club (2024-2025)</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-brand-maroon"></span> Chozhan Tamil Toastmaster Club (2021-2022)</li>
             </ul>
           </motion.div>
         </div>
@@ -118,7 +119,7 @@ export default function ExperienceSection() {
         >
           {[...achievementPhotos, ...achievementPhotos].map((photo, index) => (
             <div key={index} className="w-80 h-60 md:w-96 md:h-72 shrink-0 rounded-2xl shadow-lg border-4 border-white overflow-hidden">
-              <img src={photo} alt="" className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" />
+              <img src={photo} alt="" className={`w-full h-full ${[0, 1, 8, 10, 11, 17].includes(index) ? "object-contain" : "object-cover"} hover:scale-110 transition-transform duration-500`} />
             </div>
           ))}
         </motion.div>
