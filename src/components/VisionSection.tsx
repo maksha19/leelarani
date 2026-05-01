@@ -111,7 +111,7 @@ export default function VisionSection() {
   return (
     <section className="py-12 md:py-24 bg-surface relative z-10" id="vision">
       <div className="max-w-[1200px] mx-auto px-6">
-        <div className='flex-row py-10'>
+        <div className='flex flex-col py-10'>
           <p className="font-body-lg font-bold text-lg md:text-2xl text-on-surface-variant justify-center items-center mx-auto">உள்ளுவதெல்லாம் உயர்வுள்ளல்(குறள் 596)</p>
           <p className="font-body-lg font-bold text-lg md:text-2xl text-on-surface-variant justify-center items-center mx-auto">Let your thoughts always be lofty/high </p>
         </div>
