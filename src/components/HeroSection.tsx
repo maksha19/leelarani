@@ -31,7 +31,9 @@ export default function HeroSection() {
           </div>
           <h1 className="font-h1 text-3xl md:text-5xl lg:text-7xl text-white drop-shadow-lg font-bold leading-tight">
             Leela Rani <br />Eagappan
+            <p className='text-sm md:text-xl'>Toastmasters member since: 2019</p>
           </h1>
+          
           <p className="font-h3 text-lg md:text-2xl text-white/90 max-w-lg leading-relaxed">
             My journey in Toastmasters has been defined by a commitment to service, continuous learning, and empowering others to reach their full potential. Over the years, I have witnessed the incredible transformative power of our community, and it is this very power that inspires me to step forward as your Nominated Candidate for <strong>Division T Director 2026-2027</strong>.
           </p>

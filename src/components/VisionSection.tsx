@@ -58,7 +58,7 @@ export default function VisionSection() {
             isVisible.current = true;
             // Only auto-play immediately if no tab-switch timer is pending
             if (!pendingAutoPlay.current) {
-              video.play().catch(() => {});
+              video.play().catch(() => { });
             }
           } else {
             isVisible.current = false;
@@ -103,7 +103,7 @@ export default function VisionSection() {
       pendingAutoPlay.current = false;
       if (isVisible.current) {
         const newVideo = getVideoRef(tab).current;
-        if (newVideo) newVideo.play().catch(() => {});
+        if (newVideo) newVideo.play().catch(() => { });
       }
     }, 1000);
   };
@@ -111,8 +111,9 @@ export default function VisionSection() {
   return (
     <section className="py-12 md:py-24 bg-surface relative z-10" id="vision">
       <div className="max-w-[1200px] mx-auto px-6">
-        <div className='flex py-10'>
-          <p className="font-body-lg font-bold text-xl md:text-2xl text-on-surface-variant justify-center items-center mx-auto">உள்ளுவதெல்லாம் உயர்வுள்ளல்" (குறள் 596). Let your thoughts always be lofty/high </p>
+        <div className='flex-row py-10'>
+          <p className="font-body-lg font-bold text-lg md:text-2xl text-on-surface-variant justify-center items-center mx-auto">உள்ளுவதெல்லாம் உயர்வுள்ளல்(குறள் 596)</p>
+          <p className="font-body-lg font-bold text-lg md:text-2xl text-on-surface-variant justify-center items-center mx-auto">Let your thoughts always be lofty/high </p>
         </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -136,21 +137,19 @@ export default function VisionSection() {
           <div className="flex justify-center mb-4 gap-2">
             <button
               onClick={() => handleTabSwitch('english')}
-              className={`px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 ${
-                activeTab === 'english'
-                  ? 'bg-brand-blue text-white shadow-md'
-                  : 'bg-brand-blue/10 text-brand-blue hover:bg-brand-blue/20'
-              }`}
+              className={`px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 ${activeTab === 'english'
+                ? 'bg-brand-blue text-white shadow-md'
+                : 'bg-brand-blue/10 text-brand-blue hover:bg-brand-blue/20'
+                }`}
             >
               English
             </button>
             <button
               onClick={() => handleTabSwitch('tamil')}
-              className={`px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 ${
-                activeTab === 'tamil'
-                  ? 'bg-brand-maroon text-white shadow-md'
-                  : 'bg-brand-maroon/10 text-brand-maroon hover:bg-brand-maroon/20'
-              }`}
+              className={`px-6 py-2 rounded-full font-semibold text-sm transition-all duration-300 ${activeTab === 'tamil'
+                ? 'bg-brand-maroon text-white shadow-md'
+                : 'bg-brand-maroon/10 text-brand-maroon hover:bg-brand-maroon/20'
+                }`}
             >
               தமிழ்
             </button>
@@ -194,7 +193,7 @@ export default function VisionSection() {
           ))}
         </div>
         {/* proposed Div-T 2026-2027 calender*/}
-       
+
       </div>
     </section>
   );

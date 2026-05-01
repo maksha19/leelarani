@@ -2,19 +2,19 @@
 import { motion } from 'framer-motion';
 
 const events = [
-  { sno: 1,  description: 'Div T COT 1 - In person',             date: '26 Jul 2026', remark: 'NLB / Community Clubs' },
-  { sno: 2,  description: 'Mega Event',                           date: '30 Aug 2026', remark: 'Div T - Membership Drive / National Day' },
-  { sno: 3,  description: 'All Area Contest (Tamil)',             date: '11 Oct 2026', remark: 'HS and EV' },
-  { sno: 4,  description: 'Div T Tamil Contest',                  date: '25 Oct 2026', remark: 'HS and EV' },
-  { sno: 5,  description: 'Div T COT 2 - Online',                 date: '13 Dec 2026', remark: '—' },
-  { sno: 6,  description: 'Div T Special Meeting with Counsel',   date: '10 Jan 2027', remark: 'Discussion on Successor(s) of Div T' },
-  { sno: 7,  description: 'All Area Contest (English)',           date: '14 Feb 2027', remark: '—' },
-  { sno: 8,  description: 'Div T English Contest',                date: '21 Feb 2027', remark: 'SINDA / CSC' },
-  { sno: 9,  description: 'All Area Contest (Tamil)',             date: '21 Mar 2027', remark: 'IS and TT' },
-  { sno: 10, description: 'Div T Tamil Contest',                  date: '18 Apr 2027', remark: 'IS and TT (Membership Drive)' },
-  { sno: 11, description: 'Div T Family Day',                     date: '9 May 2027',  remark: '@ Sentosa' },
-  { sno: 12, description: 'Div T Achievers Day',                  date: '13 Jun 2027', remark: 'CSC' },
-  { sno: 13, description: 'Div T DCM and Dist TRIOs',             date: 'Quarterly',   remark: 'Exact date to be confirmed with TRIOs' },
+  { sno: 1,  description: 'COT 1 - In person',              date: '26 Jul 2026', remark: 'NLB / Community Clubs' },
+  { sno: 2,  description: 'Mega Event',                     date: '30 Aug 2026', remark: 'Membership Drive / National Day' },
+  { sno: 3,  description: 'All Area Contest (Tamil)',       date: '11 Oct 2026', remark: 'HS and EV' },
+  { sno: 4,  description: 'Tamil Contest',                  date: '25 Oct 2026', remark: 'HS and EV' },
+  { sno: 5,  description: 'COT 2 - Online',                 date: '13 Dec 2026', remark: '—' },
+  { sno: 6,  description: 'Special Meeting with Counsel',   date: '10 Jan 2027', remark: 'Discussion on Successor(s) of Div-T' },
+  { sno: 7,  description: 'All Area Contest (English)',     date: '14 Feb 2027', remark: '—' },
+  { sno: 8,  description: 'English Contest',                date: '21 Feb 2027', remark: 'SINDA / CSC' },
+  { sno: 9,  description: 'All Area Contest (Tamil)',       date: '21 Mar 2027', remark: 'IS and TT' },
+  { sno: 10, description: 'Tamil Contest',                  date: '18 Apr 2027', remark: 'IS and TT (Membership Drive)' },
+  { sno: 11, description: 'Family Day',                     date: '9 May 2027',  remark: '@ Sentosa' },
+  { sno: 12, description: 'Achievers Day',                  date: '13 Jun 2027', remark: 'CSC' },
+  { sno: 13, description: 'DCM and Dist TRIOs',             date: 'Quarterly',   remark: 'Exact date to be confirmed with TRIOs' },
   { sno: 14, description: 'Monthly Div Council Meeting',          date: 'Monthly',     remark: 'To be decided with Area Directors' },
 ];
 
