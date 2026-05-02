@@ -40,7 +40,7 @@ export default function ExperienceSection() {
             className="glass-panel p-6 rounded-2xl border-l-4 border-l-brand-yellow hover:shadow-xl transition-shadow"
           >
             <p className="font-label-caps text-xs text-on-surface-variant font-semibold uppercase tracking-wider mb-1">Division Level</p>
-            <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Asst. Division Director PQD</h4>
+            <h4 className="font-h3 text-xl text-brand-blue mb-2 font-bold">Asst. Division Director PQ</h4>
             <p className="font-body-md text-xl text-brand-maroon font-medium">Division C (2025-2026)</p>
           </motion.div>
 
